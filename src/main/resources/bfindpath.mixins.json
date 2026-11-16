@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.kafei.bfindpath.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ai.BrainTickMixin",
+    "ai.EatBlockGoalMixin",
+    "ai.GoalTickMixin",
+    "ai.LocalBlockQueryMixin",
+    "ai.LookTargetMixin",
+    "nav.GroundPathNavigationMixin",
+    "nav.GroundSampleMixin",
+    "nav.PathRegionMixin",
+    "nav.PathTargetMixin",
+    "nav.PathfindingContextMixin",
+    "nav.WanderPosMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
